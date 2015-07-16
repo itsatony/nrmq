@@ -1,0 +1,22 @@
+{
+  "name": "nrmq",
+  "description": "nrmq - a rabbitmq base-service",
+  "version": "0.1.0",
+  "author": "Toni Wagner <i@itsatony.com>",
+  "engine": "node >= 0.10",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/itsatony/nrmq.git"
+  },
+  "dependencies": {
+    "q": "latest",
+		"amqp": "latest",
+	  "q": "latest",
+    "node-uuid": "latest",
+		"node-amqp-rpc": "git+ssh://git@github.com:rashtao/node-amqp-rpc.git"
+  },
+  "devDependencies": {
+    "mocha": "1.13.0",
+    "should": "2.0.1"
+  }
+}

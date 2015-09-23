@@ -13,7 +13,7 @@
 		"amqp": "latest",
 	  "q": "latest",
     "node-uuid": "latest",
-		"node-amqp-rpc": "git+ssh://git@github.com:rashtao/node-amqp-rpc.git"
+		"node-amqp-rpc": "git+ssh://git@github.com:rashtao/node-amqp-rpc.git#ar_rl_0.2"
   },
   "devDependencies": {
     "mocha": "1.13.0",
